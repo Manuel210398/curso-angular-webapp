@@ -19,7 +19,7 @@ export class ProductoServicios
   }
   getProducto(id): Observable<any>
   {
-    return this._http.get('http://localhost/cursoAngular-backend/index.php/producto/'+id);
+      return this._http.get('http://localhost/cursoAngular-backend/index.php/producto/'+id);
   }
   getProductos(): Observable<any>
   {
